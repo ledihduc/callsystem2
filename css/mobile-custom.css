@@ -1,0 +1,186 @@
+img {
+  width: 100%;
+  height: auto;
+}
+header {
+  padding: 2.34vw 1.56vw 2.34vw 3.12vw;
+  background: #fff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 99;
+}
+header h1 {
+  width: 35.93vw;
+}
+header ul li {
+  width: 14.06vw;
+}
+header ul li:first-of-type {
+  width: 25.9375vw;
+}
+.hnh-case-slider button.slick-next.slick-arrow {
+    background-image: url('../img/common/common_icon_arrow.png');
+    background-repeat: no-repeat;
+    background-color: transparent !important;
+    background-size: contain; /* Thay đổi kích thước ảnh theo yêu cầu */
+    background-position: center; /* Căn giữa hình ảnh */
+    text-indent: -9999px; /* Ẩn văn bản bằng cách dịch nó ra xa khỏi vùng hiển thị */
+    border: none;
+    
+}
+.hnh-case-slider button.slick-prev.slick-arrow {
+    width: 4.21vw;
+    cursor: pointer;
+    position: absolute;
+    top: 54.68vw;
+    z-index: 9;
+    left: -6.25vw;
+}
+.hnh-case-slider button.slick-prev.slick-arrow {
+  background-image: url('../img/common/common_icon_arrow.png');
+    
+    background-repeat: no-repeat;
+    background-color: transparent !important;
+    background-size: contain; /* Thay đổi kích thước ảnh theo yêu cầu */
+    background-position: center; /* Căn giữa hình ảnh */
+    text-indent: -9999px; /* Ẩn văn bản bằng cách dịch nó ra xa khỏi vùng hiển thị */
+    
+    border: none;
+    
+    /* opacity: 0.5; */
+}
+.hnh-case-slider button.slick-next.slick-arrow {
+    width: 4.21vw;
+    cursor: pointer;
+    position: absolute;
+    top: 54.68vw;
+    z-index: 9;
+    right: -6.25vw;
+    transform: rotateY(180deg);
+}
+header div ul li + li {
+  margin-left: 0.78vw;
+}
+#fv {
+  padding-top: 3.125vw;
+  margin-top: 18.75vw;
+  background: url(../img/mobile/sp_fv_background.png) no-repeat center top / 100%
+    125vw;
+}
+#fv h2 {
+  width: 84.0625vw;
+  margin: 0 auto 4.6875vw;
+}
+#fv > p {
+  width: 89.37vw;
+  margin: 0 auto 5.93vw;
+}
+#fv h3 {
+  width: 56.25vw;
+  margin: 0 auto 7.03vw;
+}
+#fv .form-box {
+  padding: 6.25vw 6.25vw 7.81vw;
+  margin: 0 auto;
+  background: #e8e6e7;
+}
+#fv .form-box .form-frame {
+  padding: 6.25vw 5.46vw 6.25vw;
+  border-radius: 1.56vw;
+  background: #fff;
+}
+#fv .form-box .form-frame dl + dl {
+  margin-top: 2.34vw;
+}
+#fv .form-box .form-frame .req dt {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: baseline;
+  -webkit-align-items: baseline;
+  -ms-flex-align: baseline;
+  align-items: baseline;
+}
+#fv .form-box .form-frame .req dt label {
+  margin-right: 1.25vw;
+}
+#fv .form-box .form-frame .req dt::after {
+  content: "必須";
+  color: #f54653;
+  font-size: 3.12vw;
+}
+#fv .form-box .form-frame dt,
+#fv .form-box .form-frame dd {
+  font-size: 3.43vw;
+}
+#fv .form-box .form-frame dt {
+  padding: 0 0 0.78vw 0.78vw;
+}
+#fv .form-box .form-frame dd {
+  width: 100%;
+  position: relative;
+}
+
+/*----- input周り(text,select,textarea等) -----*/
+#fv .form-box .form-frame dl dd select,
+#fv .form-box .form-frame dl dd input[type="text"],
+#fv .form-box .form-frame dl dd input[type="email"],
+#fv .form-box .form-frame dl dd input[type="tel"] {
+  width: 100%;
+  font-size: 3.75vw;
+  line-height: 1.5;
+  padding: 2.34vw 3.12vw;
+  border: 1px solid #ced4da;
+  border-radius: 0.78vw;
+  background: #fff;
+  appearance: none;
+  resize: none;
+}
+
+/*----- パーツ(項目ごとの微調整用) -----*/
+#fv .policy {
+  font-size: 3.12vw;
+  text-align: center;
+  margin-top: 3.9vw;
+}
+#fv .policy span {
+  display: block;
+}
+#fv .policy a {
+  display: inline;
+  color: #454545;
+  text-decoration: underline;
+}
+
+/*----- formボタン -----*/
+#fv #next-btn {
+  margin-top: 3.12vw;
+  text-align: center;
+}
+#fv #next-btn input[type="submit"] {
+  width: 62.5vw;
+  color: #345c73;
+  font-size: 4.06vw;
+  font-weight: bold;
+  padding: 3.9vw 0;
+  border: none;
+  border-radius: 7.81vw;
+  background: #ffdb2d;
+}
+footer {
+  display: block;
+  color: #fff;
+  text-align: center;
+  background: #efefef;
+}
+footer small {
+  display: block;
+  color: #fff;
+  font-size: 2.5vw;
+  text-align: center;
+  padding: 4.68vw 0;
+  background: #26536d;
+}

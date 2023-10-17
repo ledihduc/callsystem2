@@ -1,0 +1,447 @@
+body {
+  color: #454545;
+  font-size: 13px;
+  background: #fff;
+  position: relative;
+}
+
+.l-inner {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.contact-btn {
+  width: 800px;
+  margin: 0 auto;
+}
+
+.contact-btn li:first-of-type {
+  margin-bottom: 25px;
+}
+
+.contact-btn li:hover {
+  opacity: 0.7;
+  transition: 0.5s;
+}
+
+/*----- about -----*/
+#about {
+  padding-top: 120px;
+  background: url(../../img/pc/pc_about_background_contain.jpg) no-repeat center top / contain;
+}
+#about .l-inner {
+  padding-bottom: 65px;
+}
+#about .l-inner h2 {
+  margin-bottom: 25px;
+}
+#about .l-inner .text {
+  width: 540px;
+  font-size: 15px;
+  line-height: 1.7;
+  margin-bottom: 35px;
+}
+#about #plan {
+  padding: 95px 0 125px;
+  background: url(../../img/common/common_pattern_grid.png) left top;
+}
+#about #plan h3 {
+  display: table;
+  font-size: 31px;
+  font-weight: bold;
+  text-align: center;
+  letter-spacing: 1.5px;
+  padding: 0 5px 10px;
+  margin: 0 auto 50px;
+  border-bottom: 5px solid #ffde2e;
+}
+
+#about #plan .l-inner .audio-box {
+  width: 480px;
+  padding: 40px 35px 25px;
+  margin-bottom: 40px;
+  border: 1px solid #dfdfdf;
+  border-radius: 10px;
+  background: #fff;
+}
+#about #plan .l-inner .audio-box dl {
+  margin-left: 20px;
+}
+#about #plan .l-inner .audio-box dl dt {
+  color: #e0343d;
+  font-size: 19px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+#about #plan .l-inner .audio-box dl dd {
+  width: 270px;
+  line-height: 1.4;
+}
+#about #plan .l-inner .audio-box audio {
+  display: block;
+  width: 100%;
+  margin-top: 20px;
+}
+#about #plan .l-inner .caution {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  margin: auto;
+}
+.bl_about_flowImg {
+  text-align: center;
+}
+
+/*----- result -----*/
+#result {
+  color: #fff;
+  padding: 90px 0;
+  background: linear-gradient(to right, #225b87 0%, #2f77af 50%, #225b87 100%);
+}
+#result h2 {
+  font-size: 28px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 1.5;
+  letter-spacing: 2px;
+  margin-bottom: 35px;
+}
+#result p {
+  font-size: 11px;
+  line-height: 1.5;
+  margin-top: 40px;
+}
+
+/*----- tel -----*/
+#tel-info {
+  padding: 66px 0 68px;
+  background: url(../../img/pc/pc_tel_background_cover.jpg) no-repeat center top;
+  background-size: cover;
+}
+#tel-info h2 {
+  margin-bottom: 42px;
+  text-align: center;
+}
+#tel-info .top-text {
+  font-size: 15px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 45px;
+}
+#tel-info ul.case {
+  width: 1000px;
+  margin: 0 auto 52px;
+}
+
+/*----- info -----*/
+.info {
+  padding: 50px 0 85px;
+  background: linear-gradient(to right, #225b87 0%, #2f77af 50%, #225b87 100%);
+}
+.info .l-inner > div {
+  position: relative;
+}
+.info .l-inner > div:before, .info .l-inner > div:after {
+  content: "";
+  width: 100%;
+  display: block;
+  border-top: 1px solid #39a9ff;
+  position: absolute;
+  z-index: 1;
+}
+.info .l-inner > div:before {
+  top: 45px;
+}
+.info .l-inner > div:after {
+  bottom: 47px;
+}
+.info .l-inner > div figure {
+  z-index: 2;
+}
+.info .l-inner > div .l-text {
+  color: #fff;
+  margin-left: 10px;
+}
+.info .l-inner > div .l-text h2 {
+  font-size: 34px;
+  font-weight: bold;
+  letter-spacing: 1.5px;
+  margin-bottom: 20px;
+}
+.info .l-inner > div .l-text p {
+  font-size: 23px;
+  text-align: center;
+  letter-spacing: 1.5px;
+  line-height: 1.4;
+}
+.info .l-inner ul {
+  margin-top: 30px;
+}
+
+/*----- option -----*/
+#option {
+  padding: 100px 0 95px;
+  background: #f7d831 url(../../img/pc/pc_option_deco.png) no-repeat center top 140px;
+}
+#option h2 {
+  text-align: center;
+  margin-bottom: 35px;
+}
+#option p {
+  font-size: 15px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+#option .l-inner {
+  gap: 0 20px;
+}
+#option .l-inner dl {
+  width: 320px;
+  height: 90px;
+  padding: 20px 25px 0;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  background: #fff;
+}
+#option .l-inner dl dt {
+  color: #e0343d;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 7px;
+}
+#option .l-inner dl dd {
+  line-height: 1.2;
+}
+#option .l-inner div p {
+  color: #e0343d;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 1.2;
+  text-align: left;
+}
+
+/*----- case -----*/
+#case {
+  padding: 120px 0 100px;
+  background: url(../../img/pc/pc_case_background_cover.jpg) no-repeat center top/cover;
+}
+#case h2 {
+  text-align: center;
+  margin-bottom: 50px;
+}
+#case .slider {
+  width: 1000px;
+  margin: 0 auto;
+  position: relative;
+}
+#case .slider figure {
+  width: 318px;
+  margin-right: 20px;
+}
+#case .slider .slide-arrow {
+  cursor: pointer;
+  position: absolute;
+  top: 195px;
+  z-index: 9;
+}
+#case .slider .slide-arrow.prev-arrow {
+  left: -35px;
+}
+#case .slider .slide-arrow.next-arrow {
+  right: -35px;
+  transform: rotateY(180deg);
+}
+#case .slider .slick-dots {
+  width: 35px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 45px auto 0;
+}
+#case .slider .slick-dots li {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #9ab1be;
+}
+#case .slider .slick-dots li.slick-active {
+  background: #e0343d;
+}
+#case .slider .slick-dots li button {
+  display: none;
+}
+
+/*----- reason -----*/
+#reason {
+  padding: 115px 0 140px;
+}
+#reason h2 {
+  text-align: center;
+  margin-bottom: 100px;
+}
+#reason ul {
+  width: 1000px;
+  margin: 0 auto;
+}
+#reason ul li {
+  width: 280px;
+}
+#reason ul li figure {
+  text-align: center;
+  margin-bottom: 25px;
+}
+#reason ul li dl dt {
+  color: #e0343d;
+  font-size: 22px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 1.3;
+  margin-bottom: 20px;
+}
+#reason ul li dl dd {
+  line-height: 1.3;
+}
+
+/*----- voice -----*/
+#voice {
+  padding-bottom: 95px;
+  background: url(../../img/pc/pc_voice_background_cover.jpg) no-repeat center top/cover;
+}
+#voice h2 {
+  color: #fff;
+  font-size: 31px;
+  text-align: center;
+  font-weight: bold;
+  padding: 40px 0;
+  margin-bottom: 40px;
+  background: #27536c;
+}
+#voice ul {
+  width: 780px;
+  margin: 55px auto 0;
+}
+#voice ul li + li {
+  margin-top: 25px;
+}
+#voice ul li dl {
+  padding: 35px 45px;
+  margin-left: 10px;
+  border: 2px solid #ffdd31;
+  border-radius: 20px 20px 20px 0;
+  background: #fff;
+}
+#voice ul li dl dt {
+  color: #e0343d;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 1.4;
+  margin-bottom: 10px;
+}
+#voice ul li dl dd {
+  font-size: 13px;
+  line-height: 1.6;
+}
+#voice ul li dl dd span {
+  display: block;
+  margin-top: 10px;
+}
+
+/*----- course -----*/
+#course {
+  padding: 110px 0 140px;
+  background: #f2f2f2;
+}
+#course h2 {
+  width: 290px;
+  color: #26536d;
+  font-size: 42px;
+  font-weight: bold;
+  text-align: center;
+  padding-bottom: 5px;
+  margin: 0 auto 30px;
+  border-bottom: 5px solid #ffde2e;
+}
+#course p {
+  font-size: 15px;
+  text-align: center;
+  line-height: 1.6;
+  margin-bottom: 50px;
+}
+#course h3 {
+  text-align: center;
+  margin-bottom: 38px;
+}
+#course .bl_couse_txt {
+  color: #ff7e00;
+  font-size: 22px;
+  font-weight: bold;
+  padding-top: 45px;
+}
+
+
+/*----- flow -----*/
+#flow {
+  padding: 130px 0;
+  background: #ffde2e;
+  position: relative;
+}
+#flow:after {
+  content: "";
+  width: 50%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  background: url(../../img/common/common_pattern_grid.png) center top;
+}
+#flow .l-inner h2 {
+  color: #34617c;
+  font-size: 36px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+#flow .l-inner h2 span {
+  display: block;
+  font-size: 22px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+#flow .l-inner figure {
+  margin-left: 100px;
+  z-index: 2;
+}
+
+/*----- bottom-contents -----*/
+#bottom-contents {
+  padding-top: 75px;
+  background: #26536d;
+}
+#bottom-contents ul {
+  margin-bottom: 90px;
+}
+#bottom-contents ul li dl {
+  color: #fff;
+  text-align: center;
+  margin-top: 10px;
+}
+#bottom-contents ul li p:hover {
+  opacity: 0.7;
+  transition: 0.5s;
+}
+#bottom-contents ul li dl dt {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+#bottom-contents ul li dl dd {
+  line-height: 1.3;
+  margin-bottom: 15px;
+}
+#bottom-contents .tel {
+  text-align: center;
+  padding: 40px 0;
+  background: #fff;
+}
+#bottom-contents .tel span {
+  margin-left: 30px;
+}
