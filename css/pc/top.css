@@ -27,7 +27,8 @@ body {
 /*----- about -----*/
 #about {
   padding-top: 120px;
-  background: url(../../img/pc/pc_about_background_contain.jpg) no-repeat center top / contain;
+  background: url(../../img/pc/pc_about_background_contain.jpg) no-repeat center
+    top / contain;
 }
 #about .l-inner {
   padding-bottom: 65px;
@@ -141,7 +142,8 @@ body {
 .info .l-inner > div {
   position: relative;
 }
-.info .l-inner > div:before, .info .l-inner > div:after {
+.info .l-inner > div:before,
+.info .l-inner > div:after {
   content: "";
   width: 100%;
   display: block;
@@ -181,7 +183,8 @@ body {
 /*----- option -----*/
 #option {
   padding: 100px 0 95px;
-  background: #f7d831 url(../../img/pc/pc_option_deco.png) no-repeat center top 140px;
+  background: #f7d831 url(../../img/pc/pc_option_deco.png) no-repeat center top
+    140px;
 }
 #option h2 {
   text-align: center;
@@ -223,7 +226,8 @@ body {
 /*----- case -----*/
 #case {
   padding: 120px 0 100px;
-  background: url(../../img/pc/pc_case_background_cover.jpg) no-repeat center top/cover;
+  background: url(../../img/pc/pc_case_background_cover.png) no-repeat center
+    top/cover;
 }
 #case h2 {
   text-align: center;
@@ -305,7 +309,8 @@ body {
 /*----- voice -----*/
 #voice {
   padding-bottom: 95px;
-  background: url(../../img/pc/pc_voice_background_cover.jpg) no-repeat center top/cover;
+  background: url(../../img/pc/pc_voice_background_cover.png) no-repeat center
+    top/cover;
 }
 #voice h2 {
   color: #fff;
@@ -377,7 +382,6 @@ body {
   font-weight: bold;
   padding-top: 45px;
 }
-
 
 /*----- flow -----*/
 #flow {
